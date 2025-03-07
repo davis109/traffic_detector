@@ -11,7 +11,7 @@ print(f"Using device: {device}")
 model = YOLO("yolov8n.pt").to(device)
 
 # Load Video
-cap = cv2.VideoCapture(r"C:\Users\sebas\Downloads\2103099-uhd_3840_2160_30fps.mp4")
+cap = cv2.VideoCapture(r"path_for_traffik_vid")
 
 frame_width, frame_height = 640, 640  # Ensure height is divisible by 32
 
